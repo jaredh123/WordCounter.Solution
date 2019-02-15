@@ -21,7 +21,11 @@ xxxx
 
 | Behavior | Input | Output |
 |----------|:-----:|:------:|
-| xxxxx | xxxxx | xxxxx |
+| The user types a sentence into the console and it is stored as a string | "Billy Reuban Bunny baked a bun for his baby boy Bilbo Bun Bunny" | string searchString = "Billy Reuban Bunny baked a bun for his baby boy Bilbo Bun Bunny" |
+| The user inputs a word or phrase to search for within the original sentence | "bun" | string findString = "bun" |
+| The program displays the original sentence and how many times the searched for word was used | "Billy Reuban Bunny baked a bun for his baby boy Bilbo Bun Bunny" | "The word 'bun' was used 2 times." |
+| Words containing the searched for word do not count | "Bunny" | "bunny does not count" |
+
 
 ## Setup and Use
 xxxxx
@@ -43,7 +47,6 @@ xxxxx
 
 ## Built With
 
-* Linux Fedora 29
 * Atom (IDE)
 * C#
 * .NET Core 2.0
