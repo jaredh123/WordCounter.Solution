@@ -35,13 +35,13 @@ xxxxx
 * Must have basic computer use proficiency
 
 #### Open Locally
-1. Navigate to my [repo](https://github.com/jaredh123word-counter) at GitHub.com/jaredh123/word-counter
-2. Clone the repository using the [HTTPS URL](https://github.com/jaredh123/word-counter) or download the zip file.
+1. Navigate to my [repo](https://github.com/jaredh123/WordCounter.Solution) at GitHub.com/jaredh123/WordCounter.Solution
+2. Clone the repository using the [HTTPS URL](https://github.com/jaredh123/WordCounter.Solution) or download the zip file.
 3. Open the Program.exe file or alternatively use your preferred IDE to view code.
 
 ### Compile Locally
-1. Navigate to one of [our repo](https://github.com/jaredh123/word-counter) such as GitHub.com/LondresRi/Higher-Lower
-2. Clone the repository using the [HTTPS URL](https://github.com/LondresRi/word-counter) or download the zip file.
+1. Navigate to one of [our repo](https://github.com/jaredh123/WordCounter.Solution) such as GitHub.com/jaredh123/WordCounter.Solution
+2. Clone the repository using the [HTTPS URL](https://github.com/jaredh123/WordCounter.Solution) or download the zip file.
 3. Open with preferred IDE, go to xxxxx.csproj and xxxxx.Test.csproj, edit netcoreapp, Microsoft.NET.Test.Sdk, MSTest.TestAdapter, MSTest.TestFramework to versions suitable to you.
 4. Navigate to the xxxxx directory and use "mcs Program.cs Models/Counter.cs; mono Program.exe" to compile.
 
