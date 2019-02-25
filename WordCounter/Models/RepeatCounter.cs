@@ -7,7 +7,7 @@ namespace WordCounter.Models
   {
     public string[] SplitSentence(string array)
     {
-      string[] sentArray = array.Split(" ");
+      string[] sentArray = array.Split(' ');
       return sentArray;
     }
     public int Searcher(string item, string[] array)
