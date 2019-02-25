@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameWork>netcoreapp1.1</TargetFrameWork>
+  </PropertyGroup>
+
+</Project>
