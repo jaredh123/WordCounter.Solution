@@ -5,22 +5,44 @@ namespace WordCounter.Models
 {
   public class RepeatCounter
   {
-    public string[] SplitSentence(string array)
+    private static string _userWord;
+    private static string _userSentence;
+    private static int _result;
+
+    public RepeatCounter (string userWord, string userSentence, int result)
     {
-      string[] sentArray = array.Split(' ');
-      return sentArray;
+      _userWord = userWord;
+      _userSentence = userSentence;
+      _result = result;
     }
-    public int Searcher(string item, string[] array)
+
+    public int Searcher(string userWord, string userSentence, int result)
     {
-      int result = 0;
-      for (int i = 0; i < array.Length; i++)
+      string[] sentArray = userSentence.ToLower().Split(' ', '.', ',', '!', '?', '(', ')', '/');
+      for (int i = 0; i < sentArray.Length; i++)
       {
-        if (item == array[i])
+        if (userWord.ToLower() == sentArray[i])
         {
           result++;
         }
       }
-      return result;
+      _result = result;
+      return _result;
+    }
+
+    public static string GetUserWord()
+    {
+      return _userWord;
+    }
+
+    public static string GetUserSentence()
+    {
+      return _userSentence;
+    }
+
+    public static int GetResult()
+    {
+      return _result;
     }
   }
 }
