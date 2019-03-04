@@ -4,7 +4,7 @@
 
 ##  **WordCounter.Solution**
 
-#### Epicodus week 8 independent project: WordCounter.Solution, created February 15th, 2019
+#### Epicodus week 6-7 independent project: WordCounter.Solution, created February 15th, 2019
 #### By Jared Hanson
 
 ----------
