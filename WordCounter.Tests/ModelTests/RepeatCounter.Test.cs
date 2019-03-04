@@ -31,5 +31,15 @@ namespace WordCounter.Tests
       bool result = userSentence is string;
       Assert.AreEqual(true, result);
     }
+
+    [TestMethod]
+    public void resultTest()
+    {
+      int result = 0;
+      string userWord = "i";
+      string userSentence = "i i ii";
+      RepeatCounter counter = new RepeatCounter(userWord, userSentence, result);
+      Assert.AreEqual(2, counter.Searcher(userWord, userSentence, result));
+    }
   }
 }
