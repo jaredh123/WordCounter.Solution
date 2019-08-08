@@ -43,11 +43,8 @@ Download .NET Core 1.1.4 SDK and .NET Core Runtime 1.1.2 and install them. Downl
 
 ## Built With
 
-* Atom (IDE)
 * C#
 * .NET Core 2.0
-* Git
-* MAMP
 
 ## Contributors
 
